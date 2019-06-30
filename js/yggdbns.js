@@ -200,9 +200,9 @@ _YGDBNS.run = function(cs, len, npcs) {
 
 _YGDBNS.over = function(rec, npc) {
 	if(npc && rec && npc.x + 20 >= rec.x && npc.y + 40 >= rec.y && npc.x <= rec.x+rec.w) {
-		_YGDBNS.ctx.fillStyle = "red";
-		_YGDBNS.ctx.rect(rec.x,rec.y,rec.w,rec.h);
-		_YGDBNS.ctx.rect(npc.x,npc.y,20,40);
+		//_YGDBNS.ctx.fillStyle = "red";
+		//_YGDBNS.ctx.rect(rec.x,rec.y,rec.w,rec.h);
+		//_YGDBNS.ctx.rect(npc.x,npc.y,20,40);
 		_YGDBNS.pause();
 		if(confirm("您输了，是否重新开始？")) {
 			_YGDBNS.resetGame();
