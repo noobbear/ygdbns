@@ -1,0 +1,22 @@
+.container .game-header{
+	text-align: center;
+}
+.container .game-header span{
+	display: inline-block;
+	font-size: 25px;
+	color: skyblue;
+}
+.container .game-body{
+	margin: 10px auto;
+	text-align: center;
+}
+.game-body #view{
+	border-radius: 5px;
+}
+.container .game-footer{
+	text-align: center;
+	font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+	font-size: 14px;
+	color: #a0a0a0;
+	font-weight: normal;
+}
